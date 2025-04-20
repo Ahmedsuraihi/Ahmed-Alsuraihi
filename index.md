@@ -92,17 +92,14 @@ Currently leading the Information Systems Department at the High Authority for S
 
 ## 📁 Projects
 
-### **ERPNext Implementation (HASTI)**
-- Designed and implemented a full ERP solution
-- Customized modules and managed deployment
+### **Oficial Website (HASTI)**
+![official website](/assets/official-website.png)
 
-### **TOEFL Testing System (YALI)**
-- Supported and maintained international testing endpoints
-- Ensured high availability and security of exam systems
+### **Science Olympics Competetion Platform (HASTI)**
+![Science olypmics](/assets/olympics-home.png)
 
-### **Custom Web Applications (Alakhawain)**
-- Built internal web tools for operations
-- Integrated security and responsive design
+### **Innovation Record System (Web App) (HASTI)**
+![innovation record](/assets/innovation-record.png)
 
 ---
 
