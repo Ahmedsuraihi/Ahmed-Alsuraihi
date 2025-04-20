@@ -1,8 +1,5 @@
 
----
-layout: default
-title: Ahmed M. Alsuraihi
----
+
 
 # Ahmed M. Alsuraihi  
 **Head of Information Systems | IT Auditor | Full-Stack Developer | Network Engineer**
