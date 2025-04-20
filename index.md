@@ -94,7 +94,7 @@ Currently leading the Information Systems Department at the High Authority for S
 
 ### **Science Olympics Competetion Platform (HASTI)**
 ![Science olypmics](/assets/olympics-home.png)
-
+![Science olypmics](/assets/olympics-projects-form.png)
 ### **Innovation Record System (Web App) (HASTI)**
 ![innovation record](/assets/innovation-record.png)
 
