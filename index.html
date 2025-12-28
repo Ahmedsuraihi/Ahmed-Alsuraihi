@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Ahmed Alsuraihi — Portfolio" />
+  <title>Ahmed Alsuraihi | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Background FX -->
+  <div class="bg" aria-hidden="true">
+    <div class="grid"></div>
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="noise"></div>
+  </div>
+
+  <!-- Top progress bar -->
+  <div class="scrollbar" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+  <!-- Header -->
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Go to top">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span>Ahmed Alsuraihi</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn ghost" id="themeBtn" type="button" aria-label="Toggle theme">
+        <span class="icon" aria-hidden="true">☾</span>
+        <span class="btn-text">Theme</span>
+      </button>
+      <button class="btn ghost" id="menuBtn" type="button" aria-label="Open menu">
+        <span class="icon" aria-hidden="true">≡</span>
+        <span class="btn-text">Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-card">
+      <div class="drawer-top">
+        <strong>Menu</strong>
+        <button class="btn ghost" id="closeDrawer" type="button" aria-label="Close menu">✕</button>
+      </div>
+      <a href="#about" class="drawer-link">About</a>
+      <a href="#skills" class="drawer-link">Skills</a>
+      <a href="#projects" class="drawer-link">Projects</a>
+      <a href="#experience" class="drawer-link">Experience</a>
+      <a href="#contact" class="drawer-link">Contact</a>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <main id="top" class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="tag">
+          <span class="ping" aria-hidden="true"></span>
+          <span id="statusText">Available for opportunities</span>
+        </div>
+
+        <h1 class="headline">
+          I build <span class="gradient">clean, fast</span> digital experiences.
+        </h1>
+
+        <p class="subhead">
+          I’m <strong>Ahmed Alsuraihi</strong> — a developer who enjoys turning ideas into reliable products:
+          web apps, automation, and practical AI projects.
+        </p>
+
+        <div class="typewrap" aria-label="Roles">
+          <span class="type-label">I work as:</span>
+          <span class="type" id="typeTarget"></span>
+          <span class="caret" aria-hidden="true"></span>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="#projects">
+            <span class="icon" aria-hidden="true">↳</span>
+            <span>View Projects</span>
+          </a>
+          <a class="btn" href="#contact">
+            <span class="icon" aria-hidden="true">✉</span>
+            <span>Contact</span>
+          </a>
+          <a class="btn ghost" id="copyEmail" href="javascript:void(0)">
+            <span class="icon" aria-hidden="true">⧉</span>
+            <span>Copy Email</span>
+          </a>
+        </div>
+
+        <div class="chips">
+          <span class="chip">HTML/CSS/JS</span>
+          <span class="chip">Python</span>
+          <span class="chip">Django</span>
+          <span class="chip">AI/ML</span>
+          <span class="chip">Networking</span>
+        </div>
+
+        <div class="mini">
+          <a class="mini-link" target="_blank" rel="noreferrer" href="https://github.com/Ahmedsuraihi">
+            <span aria-hidden="true">↗</span> GitHub
+          </a>
+          <span class="dot" aria-hidden="true"></span>
+          <a class="mini-link" target="_blank" rel="noreferrer" href="#" id="linkedinLink">
+            <span aria-hidden="true">↗</span> LinkedIn
+          </a>
+          <span class="dot" aria-hidden="true"></span>
+          <a class="mini-link" target="_blank" rel="noreferrer" href="#" id="cvLink">
+            <span aria-hidden="true">↗</span> CV
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card tilt" id="tiltCard">
+          <div class="card-top">
+            <div class="avatar" aria-hidden="true">A</div>
+            <div class="card-meta">
+              <div class="card-name">Ahmed Alsuraihi</div>
+              <div class="card-role">Developer • Problem Solver</div>
+            </div>
+            <div class="spark" aria-hidden="true"></div>
+          </div>
+
+          <div class="stat-grid">
+            <div class="stat">
+              <div class="stat-num" data-count="20">0</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num" data-count="5">0</div>
+              <div class="stat-label">Tech Areas</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num" data-count="100">0</div>
+              <div class="stat-label">Curiosity</div>
+            </div>
+          </div>
+
+          <div class="timeline">
+            <div class="trow">
+              <span class="tbullet"></span>
+              <span class="ttext">Shipping real features</span>
+              <span class="tdate">weekly</span>
+            </div>
+            <div class="trow">
+              <span class="tbullet"></span>
+              <span class="ttext">Learning + building</span>
+              <span class="tdate">daily</span>
+            </div>
+            <div class="trow">
+              <span class="tbullet"></span>
+              <span class="ttext">Writing clean code</span>
+              <span class="tdate">always</span>
+            </div>
+          </div>
+
+          <div class="card-bottom">
+            <button class="pill" id="confettiBtn" type="button">
+              <span aria-hidden="true">✦</span> Celebrate
+            </button>
+            <span class="hint">Move your mouse ✨</span>
+          </div>
+
+          <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section reveal">
+      <div class="section-head">
+        <h2>About</h2>
+        <p>Short, clear, and real — what you do and what you care about.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="panel">
+          <h3>Who I am</h3>
+          <p>
+            I’m a developer interested in building reliable systems and modern web experiences.
+            I enjoy solving practical problems—automation, dashboards, integrations, and clean UI.
+          </p>
+          <p class="muted">
+            Replace this text with your exact background (education, current role, focus areas).
+          </p>
+        </div>
+
+        <div class="panel">
+          <h3>What I do best</h3>
+          <ul class="bullets">
+            <li>Build responsive front-end pages with strong UX</li>
+            <li>Create back-end APIs and dashboards (Python/Django)</li>
+            <li>Work with practical AI/ML experiments (e.g., YOLO projects)</li>
+            <li>Ship clean, maintainable code</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section reveal">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>A quick snapshot of what you can deliver.</p>
+      </div>
+
+      <div class="skills">
+        <div class="skill">
+          <div class="skill-top">
+            <span>Front-End</span>
+            <span class="muted">HTML • CSS • JS</span>
+          </div>
+          <div class="bar" data-level="88"><span></span></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top">
+            <span>Back-End</span>
+            <span class="muted">Python • Django</span>
+          </div>
+          <div class="bar" data-level="82"><span></span></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top">
+            <span>AI / ML</span>
+            <span class="muted">YOLO • Notebooks</span>
+          </div>
+          <div class="bar" data-level="70"><span></span></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top">
+            <span>DevOps / Tools</span>
+            <span class="muted">Git • CI • Linux</span>
+          </div>
+          <div class="bar" data-level="68"><span></span></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top">
+            <span>Networking</span>
+            <span class="muted">Routing • Servers</span>
+          </div>
+          <div class="bar" data-level="60"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section reveal">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>Make it easy for people to see what you built.</p>
+      </div>
+
+      <div class="cards">
+        <article class="pcard">
+          <div class="pcard-top">
+            <span class="badge">Featured</span>
+            <span class="muted">AI/ML</span>
+          </div>
+          <h3>YOLOv8 Notebook</h3>
+          <p>
+            Computer vision experimentation with training/inference workflow in a clean notebook structure.
+          </p>
+          <div class="pcard-actions">
+            <a class="btn small" target="_blank" rel="noreferrer"
+               href="https://github.com/Ahmedsuraihi/Ahmed-Alsuraihi">
+              Code ↗
+            </a>
+            <a class="btn small ghost" href="#contact">Ask about it</a>
+          </div>
+        </article>
+
+        <article class="pcard">
+          <div class="pcard-top">
+            <span class="badge soft">Web</span>
+            <span class="muted">HTML/CSS/JS</span>
+          </div>
+          <h3>Portfolio Website</h3>
+          <p>
+            Responsive, animated portfolio with smooth interactions and clean sections.
+          </p>
+          <div class="pcard-actions">
+            <a class="btn small" target="_blank" rel="noreferrer"
+               href="https://ahmedsuraihi.github.io/Ahmed-Alsuraihi/">
+              Live ↗
+            </a>
+            <a class="btn small ghost" href="#" id="viewSource">Source</a>
+          </div>
+        </article>
+
+        <article class="pcard">
+          <div class="pcard-top">
+            <span class="badge soft">Backend</span>
+            <span class="muted">Python</span>
+          </div>
+          <h3>Automation / Tools</h3>
+          <p>
+            Practical scripts and utilities to speed up daily workflows and reduce manual work.
+          </p>
+          <div class="pcard-actions">
+            <a class="btn small" target="_blank" rel="noreferrer"
+               href="https://github.com/Ahmedsuraihi">
+              GitHub ↗
+            </a>
+            <a class="btn small ghost" href="#contact">Request details</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="note">
+        <span class="muted">
+          Tip: Replace project cards with your real best 3–6 projects (add screenshots in /assets).
+        </span>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section reveal">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p>Simple timeline—people scan this fast.</p>
+      </div>
+
+      <div class="timeline2">
+        <div class="job">
+          <div class="job-left">
+            <div class="job-title">Your Role Title</div>
+            <div class="job-meta muted">Company / Team • 2024 — Present</div>
+          </div>
+          <div class="job-right">
+            <ul class="bullets">
+              <li>Built and maintained web features, improved UX, and shipped updates</li>
+              <li>Collaborated with teammates and supported deployments</li>
+              <li>Documented workflows and improved reliability</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="job">
+          <div class="job-left">
+            <div class="job-title">Previous Role / Training</div>
+            <div class="job-meta muted">Organization • 2022 — 2024</div>
+          </div>
+          <div class="job-right">
+            <ul class="bullets">
+              <li>Worked on projects across front-end and back-end</li>
+              <li>Learned best practices and built real deliverables</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section reveal">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Make it effortless to reach you.</p>
+      </div>
+
+      <div class="contact">
+        <div class="panel">
+          <h3>Let’s talk</h3>
+          <p class="muted">Edit these links with your real info.</p>
+
+          <div class="contact-row">
+            <span class="k">Email</span>
+            <a class="v" id="emailLink" href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a>
+          </div>
+          <div class="contact-row">
+            <span class="k">GitHub</span>
+            <a class="v" target="_blank" rel="noreferrer" href="https://github.com/Ahmedsuraihi">github.com/Ahmedsuraihi</a>
+          </div>
+          <div class="contact-row">
+            <span class="k">LinkedIn</span>
+            <a class="v" target="_blank" rel="noreferrer" href="#" id="linkedinText">Add your link</a>
+          </div>
+
+          <div class="cta">
+            <a class="btn primary" href="mailto:YOUR_EMAIL_HERE">Email me</a>
+            <button class="btn ghost" id="copyProfile" type="button">Copy Site Link</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Quick message</h3>
+          <form class="form" onsubmit="return false;">
+            <label>
+              <span class="muted">Your name</span>
+              <input id="msgName" placeholder="John Doe" />
+            </label>
+            <label>
+              <span class="muted">Message</span>
+              <textarea id="msgBody" rows="5" placeholder="Hi Ahmed, I’d like to talk about..."></textarea>
+            </label>
+            <button class="btn" id="buildEmail" type="button">Generate Email Draft</button>
+            <p class="muted tiny" id="emailDraft"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="muted">© <span id="year"></span> Ahmed Alsuraihi. Built with HTML/CSS/JS.</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
