@@ -6,9 +6,9 @@
   // Config you MUST edit
   // -----------------------------
   const CONFIG = {
-    email: "YOUR_EMAIL_HERE",
-    linkedin: "YOUR_LINKEDIN_URL_HERE", // e.g. https://www.linkedin.com/in/yourname
-    cv: "YOUR_CV_URL_HERE" // e.g. a PDF in repo: assets/Ahmed-CV.pdf
+    email: "eng.ahmedshaya@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ahmed-alsuraihi-7961b3245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", // e.g. https://www.linkedin.com/in/yourname
+    cv: "Ahmed_Alsuraihi.pdf" // e.g. a PDF in repo: assets/Ahmed-CV.pdf
   };
 
   // Inject config
