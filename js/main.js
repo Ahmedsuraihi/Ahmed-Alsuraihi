@@ -372,13 +372,27 @@ ${name || "Your Name"}
 const galleries = {
   erpnext: [
     "assets/Gallery/erpNext_images/dashboard.png",
-    "assets/Gallery/erpNext_images/2.png",
-    "assets/Gallery/erpNext_images/3.png"
+    "assets/Gallery/erpNext_images/Screenshot 2025-12-27 173555.png",
+    "assets/Gallery/erpNext_images/Screenshot 2025-12-27 173421.png",
+    "assets/Gallery/erpNext_images/Screenshot 2025-12-27 173030.png",
+    "assets/Gallery/erpNext_images/Screenshot 2025-12-27 172925.png",
+    "assets/Gallery/erpNext_images/Screenshot 2025-12-27 172831.png",
   ],
   chatbot: [
     "assets/Gallery/chatbot/chat detail.png",
-    "assets/Gallery/chatbot/2.png",
-    "assets/Gallery/chatbot/3.png"
+    "assets/Gallery/chatbot/settings-accernt-purple.png",
+    "assets/Gallery/chatbot/settings.png",
+    "assets/Gallery/chatbot/table-comparision.png",
+    "assets/Gallery/chatbot/projects.png",
+    "assets/Gallery/chatbot/move-chat-to-project.png",
+    "assets/Gallery/chatbot/moblie-responsive.png",
+    "assets/Gallery/chatbot/homre-arabic.png",
+    "assets/Gallery/chatbot/home.png",
+    "assets/Gallery/chatbot/home-dark.png",
+    "assets/Gallery/chatbot/create-project.png",
+    "assets/Gallery/chatbot/connectors.png",
+    "assets/Gallery/chatbot/code-example.png",
+    "assets/Gallery/chatbot/chat-detail.png",
   ]
 };
 
