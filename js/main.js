@@ -402,6 +402,7 @@ const galleries = {
     "assets/Gallery/others/Screenshot 2025-12-29 184650.png",
     "assets/Gallery/others/Screenshot 2025-12-29 184443.png",
     "assets/Gallery/others/Screenshot 2025-12-29 184301.png",
+    "assets/Gallery/others/Screenshot 2025-12-29 185928.png",
   ]
 };
 
