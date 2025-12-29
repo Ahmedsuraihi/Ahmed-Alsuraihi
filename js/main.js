@@ -385,7 +385,6 @@ const galleries = {
     "assets/Gallery/gpt_website/table-comparision.png",
     "assets/Gallery/gpt_website/projects.png",
     "assets/Gallery/gpt_website/move-chat-to-project.png",
-    "assets/Gallery/gpt_website/moblie-responsive.png",
     "assets/Gallery/gpt_website/homre-arabic.png",
     "assets/Gallery/gpt_website/home.png",
     "assets/Gallery/gpt_website/home-dark.png",
@@ -393,6 +392,8 @@ const galleries = {
     "assets/Gallery/gpt_website/connectors.png",
     "assets/Gallery/gpt_website/code-example.png",
     "assets/Gallery/gpt_website/chat-detail.png",
+    "assets/Gallery/gpt_website/moblie-responsive.png",
+
   ]
 };
 
