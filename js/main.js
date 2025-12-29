@@ -52,7 +52,7 @@
   // -----------------------------
   const roles = [
     "Front-End Developer",
-    "Back-End Developer (Django)",
+    "Back-End Developer",
     "AI / Computer Vision Enthusiast",
     "Automation Builder",
     "Problem Solver"
