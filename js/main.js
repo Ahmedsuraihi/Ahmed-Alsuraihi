@@ -405,6 +405,9 @@ function openGallery(name) {
   galleries[name].forEach((src) => {
     const link = document.createElement("a");
     link.href = src;
+      link.addEventListener("click", (e) => {
+      e.preventDefault();
+    });
     link.setAttribute("data-lightbox", "projects");
 
     const img = document.createElement("img");
