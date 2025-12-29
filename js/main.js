@@ -368,3 +368,52 @@ ${name || "Your Name"}
     });
   }
 })();
+// galleries
+const galleries = {
+  erpnext: [
+    "assets/Gallery/erpNext_images/dashboard.png",
+    "assets/Gallery/erpNext_images/2.png",
+    "assets/Gallery/erpNext_images/3.png"
+  ],
+  chatbot: [
+    "assets/Gallery/chatbot/chat detail.png",
+    "assets/Gallery/chatbot/2.png",
+    "assets/Gallery/chatbot/3.png"
+  ]
+};
+
+const overlay = document.getElementById("galleryOverlay");
+const content = document.getElementById("galleryContent");
+
+function openGallery(name) {
+  content.innerHTML = "";
+  galleries[name].forEach(src => {
+    const img = document.createElement("img");
+    img.src = src;
+    content.appendChild(img);
+  });
+  overlay.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+}
+
+function closeGallery() {
+  overlay.classList.add("hidden");
+  content.innerHTML = "";
+  document.body.style.overflow = "";
+}
+
+document.querySelectorAll(".gallery-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    openGallery(btn.dataset.gallery);
+  });
+});
+
+document.getElementById("galleryCloseTop").onclick = closeGallery;
+document.getElementById("galleryCloseBottom").onclick = closeGallery;
+
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeGallery();
+});
+overlay.addEventListener("click", e => {
+  if (e.target === overlay) closeGallery();
+});

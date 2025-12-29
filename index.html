@@ -301,10 +301,9 @@
              a custom AI chatbot built using the OpenAI API, designed to provide intelligent, context-aware conversations tailored to wide range of users needs
           </p>
           <div class="pcard-actions">
-            <a class="btn small" target="_blank" rel="noreferrer"
-               href="https://github.com/Ahmedsuraihi/Ahmed-Alsuraihi">
-              Gallery
-            </a>
+            <button class="btn gallery-btn" data-gallery="chatbot">
+              View Gallery
+            </button>
             <a class="btn small ghost" href="#contact">Ask about it</a>
           </div>
         </article>
@@ -319,10 +318,9 @@
             ERP systems for government entities, suppliers portals, finance, procurement, inventory, HR, and compliance-driven environments.
           </p>
           <div class="pcard-actions">
-            <a class="btn small" target="_blank" rel="noreferrer"
-               href="https://ahmedsuraihi.github.io/Ahmed-Alsuraihi/">
-              Gallery ↗
-            </a>
+            <button class="btn gallery-btn" data-gallery="erpnext">
+              View Gallery
+            </button>
             <a class="btn small ghost" href="#contact">Ask about it</a>
           </div>
         </article>
@@ -348,32 +346,6 @@
 
   
     </section>
-<section id="gallery" class="section reveal">
-  <div class="section-head">
-    <h2>Project Gallery</h2>
-    <p>A showcase of selected work and outputs</p>
-  </div>
-
-  <div class="gallery-grid">
-    
-    <!-- Example Gallery Item -->
-    <div class="gallery-item">
-      <a href="#" class="gallery-link" target="_blank" data-lightbox="projects">
-        <img src="assets/gallery/erpnext-dashboard-thumb.png" alt="ERPNext Dashboard Screenshot">
-        <div class="gallery-caption">ERPNext Dashboard</div>
-      </a>
-    </div>
-
-    <div class="gallery-item">
-      <a href="assets/gallery/portfolio-home.png" class="gallery-link" target="_blank">
-        <img src="assets/gallery/portfolio-home-thumb.png" alt="Portfolio Home Screenshot">
-        <div class="gallery-caption">Personal Portfolio</div>
-      </a>
-    </div>
-
-    <!-- Add more items below -->
-  </div>
-</section>
 
     <!-- Experience -->
    <section id="experience" class="section reveal">
@@ -514,6 +486,25 @@
   </main>
 
   <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+<!-- Gallery Overlay -->
+<div id="galleryOverlay" class="gallery-overlay hidden">
+  <div class="gallery-box">
+
+    <!-- Top bar -->
+    <button class="gallery-close-top" id="galleryCloseTop">✕</button>
+
+    <!-- Images container -->
+    <div class="gallery-content" id="galleryContent"></div>
+
+    <!-- Bottom bar -->
+    <div class="gallery-footer">
+      <button class="btn gallery-close-bottom" id="galleryCloseBottom">
+        Close
+      </button>
+    </div>
+
+  </div>
+</div>
 
   <script src="js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
