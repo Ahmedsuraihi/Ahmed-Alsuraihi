@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -347,6 +348,32 @@
 
   
     </section>
+<section id="gallery" class="section reveal">
+  <div class="section-head">
+    <h2>Project Gallery</h2>
+    <p>A showcase of selected work and outputs</p>
+  </div>
+
+  <div class="gallery-grid">
+    
+    <!-- Example Gallery Item -->
+    <div class="gallery-item">
+      <a href="assets/gallery/erpnext-dashboard.png" class="gallery-link" target="_blank" data-lightbox="projects">
+        <img src="assets/gallery/erpnext-dashboard-thumb.png" alt="ERPNext Dashboard Screenshot">
+        <div class="gallery-caption">ERPNext Dashboard</div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="assets/gallery/portfolio-home.png" class="gallery-link" target="_blank">
+        <img src="assets/gallery/portfolio-home-thumb.png" alt="Portfolio Home Screenshot">
+        <div class="gallery-caption">Personal Portfolio</div>
+      </a>
+    </div>
+
+    <!-- Add more items below -->
+  </div>
+</section>
 
     <!-- Experience -->
    <section id="experience" class="section reveal">
@@ -489,5 +516,7 @@
   <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
 
   <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
 </body>
 </html>
