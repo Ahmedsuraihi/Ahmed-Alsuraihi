@@ -406,12 +406,8 @@ function openGallery(name) {
   galleries[name].forEach((src) => {
     const link = document.createElement("a");
     link.href = src;
-    link.setAttribute("data-lightbox", "projects");
 
-    // 🚫 Prevent browser navigation
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-    });
+    link.setAttribute("data-lightbox", "projects");
 
     const img = document.createElement("img");
     img.src = src;
