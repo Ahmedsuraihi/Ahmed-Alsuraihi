@@ -379,7 +379,7 @@ const galleries = {
     "assets/Gallery/erpNext_images/Screenshot 2025-12-27 172831.png",
   ],
   chatbot: [
-    "assets/Gallery/gpt_website/chat detail.png",
+    "assets/Gallery/gpt_website/chat-detail.png",
     "assets/Gallery/gpt_website/settings-accernt-purple.png",
     "assets/Gallery/gpt_website/settings.png",
     "assets/Gallery/gpt_website/table-comparision.png",
