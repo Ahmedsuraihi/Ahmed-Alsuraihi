@@ -394,6 +394,14 @@ const galleries = {
     "assets/Gallery/gpt_website/chat-detail.png",
     "assets/Gallery/gpt_website/moblie-responsive.png",
 
+  ],
+  others:[
+    "assets/Gallery/others/Screenshot 2025-12-29 185410.png",
+    "assets/Gallery/others/Screenshot 2025-12-29 185202.png",
+    "assets/Gallery/others/Screenshot 2025-12-29 184910.png",
+    "assets/Gallery/others/Screenshot 2025-12-29 184650.png",
+    "assets/Gallery/others/Screenshot 2025-12-29 184443.png",
+    "assets/Gallery/others/Screenshot 2025-12-29 184301.png",
   ]
 };
 
