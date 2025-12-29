@@ -401,14 +401,24 @@ const content = document.getElementById("galleryContent");
 
 function openGallery(name) {
   content.innerHTML = "";
-  galleries[name].forEach(src => {
+
+  galleries[name].forEach((src) => {
+    const link = document.createElement("a");
+    link.href = src;
+    link.setAttribute("data-lightbox", "projects");
+
     const img = document.createElement("img");
     img.src = src;
-    content.appendChild(img);
+    img.alt = name + " project image";
+
+    link.appendChild(img);
+    content.appendChild(link);
   });
+
   overlay.classList.remove("hidden");
   document.body.style.overflow = "hidden";
 }
+
 
 function closeGallery() {
   overlay.classList.add("hidden");
