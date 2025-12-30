@@ -373,7 +373,6 @@ const galleries = {
   erpnext: [
     "assets/Gallery/erpNext_images/dashboard.png",
     "assets/Gallery/erpNext_images/Screenshot 2025-12-27 173555.png",
-    "assets/Gallery/erpNext_images/Screenshot 2025-12-27 173421.png",
     "assets/Gallery/erpNext_images/Screenshot 2025-12-27 173030.png",
     "assets/Gallery/erpNext_images/Screenshot 2025-12-27 172925.png",
     "assets/Gallery/erpNext_images/Screenshot 2025-12-27 172831.png",
