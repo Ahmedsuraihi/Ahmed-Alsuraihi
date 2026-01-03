@@ -403,7 +403,7 @@ const galleries = {
     "assets/Gallery/others/Screenshot 2025-12-29 184301.png",
     "assets/Gallery/others/Screenshot 2025-12-29 185928.png",
     "assets/Gallery/others/dashboards.png",
-    "assets/Gallery/others/webshop-analytics-dashboard ",
+    "assets/Gallery/others/webshop-analytics-dashboard.png",
     "assets/Gallery/others/quantom-flow.png",
   ]
 };
